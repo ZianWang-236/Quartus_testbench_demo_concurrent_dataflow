@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd
+source_file = 1, D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd
+source_file = 1, d:/app_install/quartus/quartus_install_path/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/app_install/quartus/quartus_install_path/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/app_install/quartus/quartus_install_path/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/app_install/quartus/quartus_install_path/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/db/fulladder_testbentch.cbx.xml
+design_name = fulladder_testbentch
+instance = comp, \output~output , output~output, fulladder_testbentch, 1
+instance = comp, \input~input , input~input, fulladder_testbentch, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, fulladder_testbentch, 1

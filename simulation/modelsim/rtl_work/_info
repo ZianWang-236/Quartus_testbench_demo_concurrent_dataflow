@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/simulation/modelsim
+T_opt
+!s110 1658517267
+V6O@H`NHKFG;;P[DcZKRJ53
+04 20 8 work fulladder_testbentch dataflow 1
+=1-5405db963be6-62daf713-1b1-10e8
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+Eadder_ff
+Z1 w1658357332
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd
+Z5 FD:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd
+l0
+L4
+ViOD5cB0_G_R00SU55a9_C1
+!s100 i@Fhb44Ta?=4O3>AUze?e2
+Z6 OL;C;10.6d;65
+31
+Z7 !s110 1658517266
+!i10b 1
+Z8 !s108 1658517266.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd|
+Z10 !s107 D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 8 adder_ff 0 22 iOD5cB0_G_R00SU55a9_C1
+l11
+L10
+V@lfELOK@d;YcHBQP1N4h]3
+!s100 JhT15hkA_]=PFo1ehLBma0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Efulladder_testbentch
+Z13 w1658413683
+R2
+R3
+R0
+Z14 8D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd
+Z15 FD:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd
+l0
+L4
+VUeXCXJc1f_liU[V5m`W433
+!s100 Z<=7=0Om4GHkUJdXT]z1C0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd|
+Z17 !s107 D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd|
+!i113 0
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 20 fulladder_testbentch 0 22 UeXCXJc1f_liU[V5m`W433
+l16
+L7
+Vi5o91eUebW[;z[0l=dGV=0
+!s100 `K3L_kRbhfo=56PcCClzj0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12
