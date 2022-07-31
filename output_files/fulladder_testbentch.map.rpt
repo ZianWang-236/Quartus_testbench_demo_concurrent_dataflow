@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fulladder_testbentch
-Thu Jul 21 10:02:42 2022
+Thu Jul 28 20:08:44 2022
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Jul 21 10:02:42 2022       ;
+; Analysis & Synthesis Status     ; Successful - Thu Jul 28 20:08:44 2022       ;
 ; Quartus Prime Version           ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                   ; fulladder_testbentch                        ;
 ; Top-level Entity Name           ; adder_ff                                    ;
@@ -166,13 +166,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                              ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
-; adder_ff.vhd                     ; yes             ; User VHDL File  ; D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                               ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                        ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
+; adder_ff.vhd                     ; yes             ; User VHDL File  ; D:/App_install/Quartus/quartus_working_path/quartus_testbench_demo_concurrent_dataflow/adder_ff.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -257,16 +257,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
-    Info: Processing started: Thu Jul 21 10:02:34 2022
+    Info: Processing started: Thu Jul 28 20:08:34 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fulladder_testbentch -c fulladder_testbentch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file adder_ff.vhd
-    Info (12022): Found design unit 1: adder_ff-behavioral File: D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd Line: 10
-    Info (12023): Found entity 1: adder_ff File: D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/adder_ff.vhd Line: 4
+    Info (12022): Found design unit 1: adder_ff-behavioral File: D:/App_install/Quartus/quartus_working_path/quartus_testbench_demo_concurrent_dataflow/adder_ff.vhd Line: 10
+    Info (12023): Found entity 1: adder_ff File: D:/App_install/Quartus/quartus_working_path/quartus_testbench_demo_concurrent_dataflow/adder_ff.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file fulladder_testbentch.vhd
-    Info (12022): Found design unit 1: fulladder_testbentch-dataflow File: D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd Line: 10
-    Info (12023): Found entity 1: fulladder_testbentch File: D:/App_install/Quartus/quartus_working_path/fulladder_test_bentch_simulation/fulladder_testbentch.vhd Line: 4
+    Info (12022): Found design unit 1: fulladder_testbentch-dataflow File: D:/App_install/Quartus/quartus_working_path/quartus_testbench_demo_concurrent_dataflow/fulladder_testbentch.vhd Line: 7
+    Info (12023): Found entity 1: fulladder_testbentch File: D:/App_install/Quartus/quartus_working_path/quartus_testbench_demo_concurrent_dataflow/fulladder_testbentch.vhd Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file schematics.bdf
+    Info (12023): Found entity 1: schematics
 Info (12127): Elaborating entity "adder_ff" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -276,9 +278,9 @@ Info (21057): Implemented 7 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4904 megabytes
-    Info: Processing ended: Thu Jul 21 10:02:42 2022
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 4897 megabytes
+    Info: Processing ended: Thu Jul 28 20:08:44 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:20
 
 
